@@ -10,3 +10,4 @@ venv/
 .claude/
 .agent/
 openspec/
+.idea/
