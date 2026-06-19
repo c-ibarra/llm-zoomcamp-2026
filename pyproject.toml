@@ -3,4 +3,9 @@ name = "llm-zoomcamp-2026"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "gitsource>=0.0.5",
+    "minsearch>=0.1.1",
+    "openai>=2.43.0",
+    "toyaikit>=0.0.11",
+]
