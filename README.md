@@ -1,5 +1,9 @@
 # LLM Zoomcamp 2026
 
+<div align="center">
+  <img width="80%" src="images/banner.png" alt="LLM Zoomcamp 2026 Banner" />
+</div>
+
 ![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)
 ![OpenAI](https://img.shields.io/badge/AI-OpenAI_GPT--4o--mini-412991.svg)
 ![Course](https://img.shields.io/badge/Course-DataTalksClub-orange.svg)
