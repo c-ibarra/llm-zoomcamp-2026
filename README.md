@@ -4,14 +4,14 @@ End-to-end LLM engineering course by [DataTalksClub](https://github.com/DataTalk
 
 ## Modules
 
-| # | Topic | Key concepts | Status |
-|---|---|---|---|
-| 1 | **Agentic RAG** | RAG pipeline, minsearch, chunking, agentic loop with function calling | ✅ Done |
-| 2 | **Agents** | OpenAI Responses API, tool use, LangGraph, CrewAI | — |
-| 3 | **Orchestration** | Kestra workflows, scheduling, pipeline coordination | — |
-| 4 | **Evaluation** | Hit Rate, MRR, LLM-as-a-Judge, trajectory evaluation for agents | — |
-| 5 | **Monitoring** | Streamlit, PostgreSQL, Grafana dashboards, Docker Compose | — |
-| — | **Capstone** | Full RAG/agent system with ingestion, eval, UI, and monitoring | — |
+| # | Topic | Key concepts | Notebook | Status |
+|---|---|---|---|---|
+| 1 | **Agentic RAG** | RAG pipeline, minsearch, chunking, agentic loop with function calling | [solution.ipynb](hw1-agentic-rag/solution.ipynb) | ✅ Done |
+| 2 | **Agents** | OpenAI Responses API, tool use, LangGraph, CrewAI | — | — |
+| 3 | **Orchestration** | Kestra workflows, scheduling, pipeline coordination | — | — |
+| 4 | **Evaluation** | Hit Rate, MRR, LLM-as-a-Judge, trajectory evaluation for agents | — | — |
+| 5 | **Monitoring** | Streamlit, PostgreSQL, Grafana dashboards, Docker Compose | — | — |
+| — | **Capstone** | Full RAG/agent system with ingestion, eval, UI, and monitoring | — | — |
 
 ## Tech Stack
 
