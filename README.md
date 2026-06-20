@@ -34,7 +34,7 @@ Each module is delivered as a Jupyter notebook with a concrete homework, buildin
 | # | Topic | Key concepts | Notebook | Status |
 |---|---|---|---|---|
 | 1 | **Agentic RAG** | RAG pipeline, minsearch, chunking, agentic loop with function calling | [solution.ipynb](hw1-agentic-rag/solution.ipynb) | ✅ Done |
-| 2 | **Agents** | OpenAI Responses API, tool use, LangGraph, CrewAI | — | — |
+| 2 | **Vector Search** | Embeddings, ONNX Runtime, cosine similarity, minsearch VectorSearch, hybrid search with RRF | [solution.ipynb](hw2-vector-search/solution.ipynb) | ✅ Done |
 | 3 | **Orchestration** | Kestra workflows, scheduling, pipeline coordination | — | — |
 | 4 | **Evaluation** | Hit Rate, MRR, LLM-as-a-Judge, trajectory evaluation for agents | — | — |
 | 5 | **Monitoring** | Streamlit, PostgreSQL, Grafana dashboards, Docker Compose | — | — |
@@ -47,6 +47,7 @@ Each module is delivered as a Jupyter notebook with a concrete homework, buildin
 | Category | Technology | Purpose |
 |---|---|---|
 | **LLM** | OpenAI GPT-4o-mini | Text generation and function calling |
+| **Embeddings** | ONNX Runtime, all-MiniLM-L6-v2 | Lightweight text embedding without PyTorch |
 | **Search** | minsearch, ElasticSearch, pgvector | Keyword, full-text, and vector retrieval |
 | **Agents** | toyaikit, LangGraph, CrewAI | Agentic loop and multi-agent frameworks |
 | **Orchestration** | Kestra | Workflow scheduling and pipeline coordination |
