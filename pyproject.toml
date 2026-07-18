@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
+    "embedder>=0.0.7",
     "gitsource>=0.0.5",
     "ipykernel>=7.3.0",
     "minsearch>=0.1.1",
@@ -21,5 +22,18 @@ dependencies = [
 [dependency-groups]
 dev = [
     "ipykernel>=7.3.0",
+    "ipywidgets>=8.1.8",
     "nbconvert>=7.17.1",
+]
+
+[[tool.uv.dependency-metadata]]
+name = "embedder"
+version = "0.0.7"
+requires-dist = [
+    "base-processor",
+    "feather-format",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "spacy",
 ]
