@@ -11,3 +11,6 @@ venv/
 .idea/
 models/
 traces.db
+*.duckdb
+.agents/
+.codex/
