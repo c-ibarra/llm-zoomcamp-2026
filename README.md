@@ -5,7 +5,7 @@
 </div>
 
 ![Python](https://img.shields.io/badge/Python-3.13+-blue.svg)
-![OpenAI](https://img.shields.io/badge/AI-OpenAI_GPT--4o--mini-412991.svg)
+![OpenAI](https://img.shields.io/badge/AI-OpenAI_GPT--5.4--mini-412991.svg)
 ![Course](https://img.shields.io/badge/Course-DataTalksClub-orange.svg)
 ![uv](https://img.shields.io/badge/Package_Manager-uv-DE5FE9.svg)
 
@@ -36,8 +36,9 @@ Each module is delivered as a Jupyter notebook with a concrete homework, buildin
 | 1 | **Agentic RAG** | RAG pipeline, minsearch, chunking, agentic loop with function calling | [solution.ipynb](hw1-agentic-rag/solution.ipynb) | ✅ Done |
 | 2 | **Vector Search** | Embeddings, ONNX Runtime, cosine similarity, minsearch VectorSearch, hybrid search with RRF | [solution.ipynb](hw2-vector-search/solution.ipynb) | ✅ Done |
 | 3 | **Orchestration** | Kestra workflows, context engineering, RAG grounding, AI agents, token usage observability | [answers.md](hw3-orchestration/answers.md) | ✅ Done |
-| 4 | **Evaluation** | Hit Rate, MRR, LLM-as-a-Judge, trajectory evaluation for agents | — | — |
-| 5 | **Monitoring** | Streamlit, PostgreSQL, Grafana dashboards, Docker Compose | — | — |
+| 4 | **Evaluation** | Hit Rate, MRR, ground-truth generation, text/vector/hybrid retrieval comparison | [solution.ipynb](hw4-evaluation/solution.ipynb) | ✅ Done |
+| 5 | **Monitoring** | OpenTelemetry tracing, spans, token/cost attributes, custom SQLite span exporter | [solution.ipynb](hw5-monitoring/solution.ipynb) | ✅ Done |
+| — | **Workshop: dlt + Logfire** | Pydantic AI agent tracing, dlt data pipelines, DuckDB, nested JSON normalization | [solution.ipynb](workshop-dlt/solution.ipynb) | ✅ Done |
 | — | **Capstone** | Full RAG/agent system with ingestion, eval, UI, and monitoring | — | — |
 
 ---
@@ -46,12 +47,14 @@ Each module is delivered as a Jupyter notebook with a concrete homework, buildin
 
 | Category | Technology | Purpose |
 |---|---|---|
-| **LLM** | OpenAI GPT-4o-mini, Google Gemini | Text generation, function calling, and AI agent workflows |
+| **LLM** | OpenAI GPT-4o-mini / GPT-5.4-mini, Google Gemini | Text generation, function calling, and AI agent workflows |
 | **Embeddings** | ONNX Runtime, all-MiniLM-L6-v2 | Lightweight text embedding without PyTorch |
 | **Search** | minsearch, ElasticSearch, pgvector | Keyword, full-text, and vector retrieval |
-| **Agents** | toyaikit, LangGraph, CrewAI | Agentic loop and multi-agent frameworks |
+| **Agents** | toyaikit, Pydantic AI, LangGraph, CrewAI | Agentic loop and multi-agent frameworks |
 | **Orchestration** | Kestra | AI workflow orchestration, RAG-grounded agents, and token usage observability |
-| **Ingestion** | gitsource, dlt | GitHub source fetching and incremental data loading |
+| **Observability** | OpenTelemetry, Pydantic Logfire | Distributed tracing, spans, and token/cost attributes for RAG and agent monitoring |
+| **Data pipelines** | dlt, DuckDB | Trace ingestion, nested JSON normalization, and local analytical queries |
+| **Ingestion** | gitsource | GitHub source fetching for course content |
 | **Monitoring** | Streamlit, PostgreSQL, Grafana | Chat UI, conversation storage, and dashboards |
 | **Infrastructure** | Docker Compose, uv | Containerization and Python package management |
 
